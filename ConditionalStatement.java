@@ -1,16 +1,16 @@
 public class ConditionalStatement {
     public static void main(String[] args) {
-        int vozr;
-        float rost;
-        char pol;
-        char firstName;
+        int vozr = 10;
+        double rost = 1.60;
+        boolean pol = true;
+        char firstName = 'U';
         if(vozr > 20){
             System.out.println("Стареешь больше 20и");
         }
-        if(pol = 'M'){
+        if(pol = true){
             System.out.println("Быть мужиком - это круто");
         }
-        if(pol != 'M'){
+        if(pol != true){
             System.out.println("Who runs the world- GIRLS");
         }
         if(rost < 1.80){
@@ -20,7 +20,7 @@ public class ConditionalStatement {
         }
         if(firstName == 'M'){
             System.out.println("ты случайно не Миша?");
-        } else if(firsName == 'I') {
+        } else if(firstName == 'I') {
             System.out.println("Привет Ира ");
         } else {
             System.out.println("Красивое имя");

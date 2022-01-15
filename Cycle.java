@@ -16,8 +16,7 @@ public class Cycle {
                 num2 = num2 + 1;
             } else {
             num2 = num2 + 1;
-        }
-
+            }
         }while(num2 <= 20);
     }
 }

@@ -6,15 +6,15 @@ public class Variable {
         long graphicsMemory = 1536;
         float processor = 1.4f;
         double version = 11.6;
-        char serialNumber = 'C';
+        char firstLetterSerial = 'C';
         boolean memoryCard = memory <= 128;
-        System.out.println(intelCore);
-        System.out.println(memory);
-        System.out.println(graphics);
-        System.out.println(graphicsMemory);
-        System.out.println(processor);
-        System.out.println(version);
-        System.out.println(serialNumber);
-        System.out.println(memoryCard);
+        System.out.println("Intel Core i" + intelCore);
+        System.out.println("Оперативная память " + memory);
+        System.out.println("Графика" + graphics);
+        System.out.println("Память графика " + graphicsMemory);
+        System.out.println("Процессор " + processor);
+        System.out.println("Версия " + version);
+        System.out.println("Первая буква серийнего " + firstLetterSerial);
+        System.out.println("Больше ли оперативная память 128и? " + memoryCard);
     }
 }

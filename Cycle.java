@@ -14,10 +14,8 @@ public class Cycle {
         do {
             if(num2 % 2 == 1) {
                 System.out.println(num2);
-                num2 += 1;
-            } else {
-            num2 += 1;
             }
+            num2 += 1;
         } while(num2 <= 20);
     }
 }

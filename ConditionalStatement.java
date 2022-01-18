@@ -7,17 +7,21 @@ public class ConditionalStatement {
         if(age > 20) {
             System.out.println("Стареешь больше 20и");
         }
+        
         if(male == 'M') {
             System.out.println("Быть мужиком - это круто");
         }
+        
         if(male != 'M') {
             System.out.println("Who runs the world- GIRLS");
         }
+        
         if(length < 1.80) {
             System.out.println("Быть длинным это смотреть с высока на низких");
         } else {
             System.out.println("Быть низким не так уж плохо ");
         }
+        
         if(firstLetterName == 'M') {
             System.out.println("ты случайно не Миша?");
         } else if(firstLetterName == 'I') {

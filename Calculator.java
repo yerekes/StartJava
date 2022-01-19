@@ -12,11 +12,11 @@ public class Calculator {
         } else if(operation == '/') {
             System.out.println(num1 / num2);
         } else if(operation == '^') {
-            int num3 = 1;
+            int resultPow = 1;
             for(int i = 1; i <= num2; i++) {
-                num3 = num3 * num1;
+                resultPow *= num1;
             }
-            System.out.println(num3);
+            System.out.println(resultPow);
         } else if(operation == '%') {
             System.out.println(num1 % num2);
         }

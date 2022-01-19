@@ -1,6 +1,6 @@
 public class Cycle {
     public static void main(String[] args) {
-        for(int i = 0; i < 21;i++) {
+        for(int i = 0; i < 21; i++) {
             System.out.println(i);
         }
         
@@ -11,13 +11,13 @@ public class Cycle {
         }
 
         int num2 = 10;
-        int num3 = 0;
+        int sumOdd = 0;
         do {
             if(num2 % 2 == 1) {
-                num3 = num3 + num2;
+                sumOdd += num2;
             }
-            num2 += 1;
+            num2++;
         } while(num2 <= 20);
-        System.out.println(num3);
+        System.out.println(sumOdd);
     }
 }

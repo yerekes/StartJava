@@ -1,11 +1,7 @@
 public class MyFirstGame {
     public static void main(String[] args) {
-        int num = 69;
+        int num = 66;
         int random = 66;
-        if(num == random) {
-            System.out.println("Поздравляю, число угадано!");
-            } 
-
         while(num != random) {
             if(num > random) {
                 System.out.println("Данное число больше того, что загадал компьютер " + num);
@@ -16,5 +12,9 @@ public class MyFirstGame {
             } 
             System.out.println("Введите число повторно");
         }
+
+        if(num == random) {
+            System.out.println("Поздравляю, число угадано!");
+            } 
     }
 }
